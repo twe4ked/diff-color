@@ -1,7 +1,9 @@
 //! Color `diff --unified` output.
 //!
+//! # Example
+//!
 //! ```bash
-//! $ diff file_1 file_2 | diff-color
+//! $ diff --unified <(git show 2e60019:README.md) README.md | diff-color
 //! ```
 use colored::Colorize;
 use std::io::{stdin, BufRead, Error};

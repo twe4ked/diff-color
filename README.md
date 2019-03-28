@@ -2,6 +2,8 @@
 
 Color `diff --unified` output.
 
+## Example
+
 ```bash
-$ diff file_1 file_2 | diff-color
+$ diff --unified README.md <(git show 2e60019:README.md) | diff-color
 ```
