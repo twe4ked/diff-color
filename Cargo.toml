@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["Odin Dutton <odindutton@gmail.com>"]
 edition = "2018"
 license-file = "LICENSE.md"
+description = "Color `diff --unified` output."
+repository = "https://github.com/twe4ked/diff-color"
+keywords = ["diff", "color", "CLI", "utility"]
+categories = ["command-line-utilities", "development-tools"]
+readme = "README.md"
 
 [dependencies]
 colored = "1.7"
