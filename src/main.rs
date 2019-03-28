@@ -5,6 +5,12 @@
 //! ```bash
 //! $ diff --unified <(git show 2e60019:README.md) README.md | diff-color
 //! ```
+//!
+//! # Installation
+//!
+//! ```bash
+//! $ cargo install diff-color
+//! ```
 use colored::Colorize;
 use std::io::{stdin, BufRead};
 use std::process;
