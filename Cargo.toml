@@ -3,6 +3,7 @@ name = "diff-color"
 version = "0.1.0"
 authors = ["Odin Dutton <odindutton@gmail.com>"]
 edition = "2018"
+license-file = "LICENSE.md"
 
 [dependencies]
 colored = "1.7"
