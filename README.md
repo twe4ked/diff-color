@@ -7,3 +7,5 @@ Color `diff --unified` output.
 ```bash
 $ diff --unified <(git show 2e60019:README.md) README.md | diff-color
 ```
+
+![Screenshot](http://twe4ked.github.io/diff-color/screenshot.png)
